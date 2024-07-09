@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  font-family: 'Lato', sans-serif;
+}
+header{
+  position: sticky;
+  top:0;
+  height: 66px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  }
+.left img{
+   width: 52px;
+  height: 43px;
+}
+.container{ 
+  padding:  0 10vw;
+  }
+nav{
+  font-size: 12px;
+  padding-top: 14px;
+}
+nav ul li{
+  list-style: none;
+  padding: 0 10px;
+}
+
+.section1{
+  background:#fefaf6 ;
+}
+.search{
+  width: 30vw;
+  padding:7px 13px;
+  border: 0.5px solid grey;
+  backgroun*d: #fff5f7;
+  border-radius: 5px;
+}
+.homeImg{
+      width: 79vw;
+  margin:12px 0;
+       
+}
+.top-img {
+    position: absolute;
+    left: 190px;
+    top: 85px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+.top-img:hover{
+  opacity: 1;
+}
+.itemImg {
+    margin: 9px 12px;
+    width: 13.999999VW;}
+footer{
+  padding:23px;
+  text-align:center;
+  box-shadow:rgb(0 0 0 /24%)0px 3px 8px;
+}
+container image{
+  width: 50%;
+}
+container icona{
+  opacity: 0.5;
+}
